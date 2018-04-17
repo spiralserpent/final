@@ -4,17 +4,17 @@
    <title>Iván Garzón Sapién</title>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link rel="stylesheet" href="./css/w3style.css">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
    <link rel="stylesheet" href="./css/custom.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="./css/fontawsome2.css">
    <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+   <link rel="stylesheet" href="./css/fontawesome.css">
 
-   <style>
+    <style>
 
       /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
-   @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+      @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
       body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
       body, html {
       height: 100%;
@@ -53,23 +53,23 @@
       }
 
    </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </head>
 
-   <body>
+<body>
       <!-- Navbar (sit on top) -->
-      <div class="w3-top">
-         <div class="w3-bar" id="myNavbar">
+    <div class="w3-top">
+         <div class="w3-bar w3-center" id="myNavbar">
             <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-            <i class="fa fa-bars"></i>
+              <i class="fa fa-bars"></i>
             </a>
-            <a href="#home" class="w3-bar-item w3-button">HOME</a>
-            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-            <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
-            <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+            <a href="#home" class="w3-bar-item w3-button topbarra">HOME//</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small topbarra"><i class="fa fa-user"></i> ABOUT//</a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small topbarra"><i class="fa fa-th"></i> PORTFOLIO//</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small topbarra"><i class="fa fa-envelope"></i> CONTACT//</a>
             <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
             <i class="fa fa-search"></i>
-            </a>
+           </a>
          </div>
          <!-- Navbar on small screens -->
          <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
@@ -78,114 +78,157 @@
             <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
             <a href="#" class="w3-bar-item w3-button">SEARCH</a>
          </div>
-      </div>
+    </div>
       <!-- First Parallax Image with Logo Text -->
       <!-- <div class="bgimg-1 w3-display-container w3-opacity-min" id="home"> -->
       <div class="bgimg-1 w3-display-container " id="experience">
          <div class="w3-display-middle" style="white-space:nowrap;">
-            <span class="w3-center w3-padding-large titulo w3-xlarge w3-wide w3-animate-opacity">IVÁN <span class="w3-hide-small"> GARZÓN </span> SAPIÉN</span>
+            <span class="w3-center w3-padding-large titulo w3-xlarge w3-wide w3-animate-opacity w3text">IVÁN GARZÓN SAPIÉN
+            <!--Empieza animacion de texto -->
               <div class="container">
-               <div class="text"></div>
+                 <div class="text">
+                 </div>
               </div>
-               <script  src="js/text.js"></script>
-              </div>
+                 <script  src="js/text.js">
+                 </script>
+                 <!--Iconos social media -->
+                    <div class="socialmedia">
+                       <a href="http://instagram.com/strikerivan" target="_blank" class="instagram"> <img src='./img/insta.png' height="40px"; width="40px"; onmouseover="this.src='./img/insta2.png';" onmouseout="this.src='./img/insta.png';"/>
+                       </a>
+                       <a href="https://www.facebook.com/Ivan-Striker-188350171896432" target="_blank" class="instagram"> <img src='./img/fb.png' height="40px"; width="40px"; onmouseover="this.src='./img/fb2.png';" onmouseout="this.src='./img/fb.png';"/>
+                       </a>
+                       <a href="https://twitter.com/AuraneBolton" target="_blank" class="instagram"> <img src='./img/tw.png' height="40px"; width="40px"; onmouseover="this.src='./img/tw2.png';" onmouseout="this.src='./img/tw.png';"/>
+                       </a>
+                       <a href="https://www.linkedin.com/in/ivan-garzon-sapien-a81846151/" target="_blank" class="instagram"> <img src='./img/in.png' height="40px"; width="40px"; onmouseover="this.src='./img/in2.png';" onmouseout="this.src='./img/in.png';"/>
+                       </a>
+                    </div>
+
+</div>
+
             </div>
+
       <!-- Container (About Section) -->
-      <div class="w3-container w3-padding-64" id="about">
-         <h3 class="w3-center">ABOUT ME</h3>
-         <p class="w3-center"><em>I love photography</em></p>
-         <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-            qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-         </p>
+      <div class="w3-container w3-padding-64 aboutnuevo" id="about">
+         <p class="w3-center aboutnuevo neonspaces"><em>About</em></p>
+         <p class="fuckme"> Soy un joven mexicano apasionado de la fotografía y la edición de esta misma. Estudiante de la carrera de Artes audiovisuales orientadas a Multimedia en el CAAV. 
+         Realizador audiovisual, trabajando en las áreas de dirección, fotografía y post-producción, siendo las últimas 2 donde más práctica tengo y dónde he querido enfocar mi desarrollo. Buscando siempre un trabajo estético, con un estilo muy marcado tanto en el uso de luces como en la post-producción, donde me dedico más al color grading.
+         Hago fotografía fija, trabajo en el CAAV, Universidad de medios audiovusales, en el área de publicidad, tomando fotografías de las prácticas de los alumnos. Tengo experiencia en fotografía de producto, urbana y también en fotografía de eventos sociales.
+         Apasionado de los videojuegos, actualmente estoy planeando uno propio.         </p>
          <div class="w3-row">
             <div class="w3-col m6 w3-center w3-padding-large">
-               <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p>
+  
                <br>
-               <img src="/w3images/avatar_hat.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+               <img src="./img/yo.jpg" class="w3-round w3-image " alt="Photo of Me" width="500" height="333">
             </div>
             <!-- Hide this text on small devices -->
-            <div class="w3-col m6 w3-hide-small w3-padding-large">
-               <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <div class="w3-col m6 w3-hide-small w3-padding-large abouttext">
+               <p>Siendo apasionado del cyberpunk y la estética que éste maneja, he tratado de crear esa realidad a través de la fotografía y la edición, buscando lugares interesantes que se puedan prestar a un ambiente futurista, con luces vibrantes de colores irrealistas. 
                </p>
             </div>
          </div>
-         <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
-         <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
+          <a class=blank></a>
+         <p class="w3-large w3-center w3-padding-16">Habilidades:</p>
+         <p class="w3-wide  w3-center barras "><i class="fa fa-camera"></i>Fotografía</p>
          <div class="w3-light-grey">
-            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center barras" style="width:92%"></div>
          </div>
-         <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+         <p class="w3-wide  w3-center barras""><i class="fa fa-laptop"></i>Photoshop/Lightroom</p>
          <div class="w3-light-grey">
-            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+            <div class="w3-container w3-padding-small w3-dark-grey  w3-center barras"" style="width:95%"></div>
          </div>
-         <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
+         <p class="w3-wide  w3-center barras""><i class="fa fa-photo "></i>Post-producción</p>
          <div class="w3-light-grey">
-            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+            <div class="w3-container w3-padding-small w3-dark-grey  w3-center barras"" style="width:91%"></div>
          </div>
-      </div>
-      <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-         <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">14+</span><br>
-            Partners
+         <p class="w3-wide  w3-center barras""><i class="fa fa-photo"></i>VFX</p>
+         <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center barras" style="width:88%"></div>
          </div>
-         <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">55+</span><br>
-            Projects Done
+               <p class="w3-wide  w3-center barras""><i class="fa fa-photo"></i>Desarrollo Web</p>
+         <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center barras" style="width:85%"></div>
          </div>
-         <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">89+</span><br>
-            Happy Clients
-         </div>
-         <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">150+</span><br>
-            Meetings
-         </div>
-      </div>
+        </div>
+
+
+     
       <!-- Second Parallax Image with Portfolio Text -->
-      <div class="bgimg-2 w3-display-container w3-opacity-min" id="work2">
+      <div class="w3-display-container  portafolio" id="work2">
          <div class="w3-display-middle">
-            <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+          <!--  <span class="w3-xxlarge w3-text-white w3-wide">P O R T A F O L I O</span> -->
          </div>
       </div>
       <!-- Container (Portfolio Section) -->
       <div class="w3-container w3-padding-64" id="work">
-         <h3 class="w3-center">MY WORK</h3>
-         <p class="w3-center"><em>Mi trabajo .<br> Click on the images to make them bigger</em></p>
+         <h3 class="w3-cente trabajo">M Y / / W O R K</h3>
+         <p class="w3-center trabajo2"><em><br>/  Click en las imágenes para agrandarlas //</em></p>
          <br>
          <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
          <div class="w3-row-padding w3-center">
             <div class="w3-col m3">
-               <img src="./img/1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="ASDASD mountains">
+               <img src="./img/2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Dvinity, foto ganadora en muestra CAAV">
             </div>
             <div class="w3-col m3">
-               <img src="./img/1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="AAAAAAAA">
+               <img src="./img/3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Synthetic space">
             </div>
             <div class="w3-col m3">
-               <img src="./img/1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+               <img src="./img/4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Flotando">
             </div>
             <div class="w3-col m3">
-               <img src="./img/1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+               <img src="./img/5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Nightshift">
             </div>
          </div>
          <div class="w3-row-padding w3-center w3-section">
             <div class="w3-col m3">
-               <img src="./img/1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+               <img src="./img/6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Fade away">
             </div>
             <div class="w3-col m3">
-               <img src./img/1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+               <img src="./img/7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quadrants">
             </div>
             <div class="w3-col m3">
-               <img src="./img/1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+               <img src="./img/1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Erik">
             </div>
             <div class="w3-col m3">
-               <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+               <img src="./img/8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="T e q u i l a w a v e ">
             </div>
-            <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+
+<div class=espacio>F O T O   / / /  C O M E R C I A L </div>
+            <div class="w3-col m3">
+               <img src="./img/budw.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity imagenes" alt="Budweiser ">
+            </div>
+            <div class="w3-col m3">
+               <img src="./img/stella.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity imagenes" alt="Stella Artois">
+            </div>
+            <div class="w3-col m3">
+               <img src="./img/14.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity imagenes" alt="Foto estudio">
+            </div>
+            <div class="w3-col m3">
+               <img src="./img/20.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity imagenes" alt="Pintura ">
+            </div>
+
+            <div class="w3-col m3">
+               <img src="./img/17.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity imagenes" alt="Escaleras ">
+            </div>
+            <div class="w3-col m3">
+               <img src="./img/18.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity imagenes" alt="practica">
+            </div>
+            <div class="w3-col m3">
+               <img src="./img/23.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity imagenes" alt="Videosala ">
+            </div>
+
+            <div class="w3-col m3">
+               <img src="./img/15.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity imagenes" alt="Moldeado ">
+            </div>
+            <div class="w3-col m3">
+               <img src="./img/21.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity imagenes" alt="Camara e iluminacion ">
+            </div>
+
+            <div class="w3-col m3">
+               <img src="./img/22.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity imagenes" alt="Multimedia ">
+            </div>
+
          </div>
-         <div class="youtube">
+         <div class="youtusbe">
          <iframe width="1350" height="720" style="width: 100%; min-height: 720px;" src="https://www.youtube.com/embed/mUkVXyKjyGE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
            </div>
          </div>
@@ -199,38 +242,47 @@
          </div>
       </div>
       <!-- Third Parallax Image with Portfolio Text -->
-      <div class="bgimg-3 w3-display-container w3-opacity-min">
+      <div class="w3-display-container contactz">
          <div class="w3-display-middle">
-            <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
          </div>
       </div>
       <!-- Container (Contact Section) -->
-      <div class="w3-content w3-container w3-padding-64" id="contact">
-         <h3 class="w3-center">WHERE I WORK</h3>
-         <p class="w3-center"><em>I'd love your feedback!</em></p>
+      <div class="w3-padding-64 contacto" id="contact">
+         <h3 class="w3-center trabajo">C O N T A C T O</h3>
+         <p class="w3-center trabajo2"><em>Contactame en cualquiera de mis redes sociales!</em></p>
+              <div class="socialmedia">
+                 <a href="http://instagram.com/strikerivan" target="_blank" class="instagram"> <img src='./img/insta.png' height="40px"; width="40px"; onmouseover="this.src='./img/insta2.png';" onmouseout="this.src='./img/insta.png';"/>
+                 </a>
+                 <a href="https://www.facebook.com/Ivan-Striker-188350171896432" target="_blank" class="instagram"> <img src='./img/fb.png' height="40px"; width="40px"; onmouseover="this.src='./img/fb2.png';" onmouseout="this.src='./img/fb.png';"/>
+                 </a>
+                 <a href="https://twitter.com/AuraneBolton" target="_blank" class="instagram"> <img src='./img/tw.png' height="40px"; width="40px"; onmouseover="this.src='./img/tw2.png';" onmouseout="this.src='./img/tw.png';"/>
+                 </a>
+                  <a href="https://www.linkedin.com/in/ivan-garzon-sapien-a81846151/" target="_blank" class="instagram"> <img src='./img/in.png' height="40px"; width="40px"; onmouseover="this.src='./img/in2.png';" onmouseout="this.src='./img/in.png';"/>
+                  </a>
+              </div>
+
          <div class="w3-row w3-padding-32 w3-section">
             <div class="w3-col m4 w3-container">
                <!-- Add Google Maps -->
             </div>
             <div class="w3-col m8 w3-panel">
                <div class="w3-large w3-margin-bottom">
-                  <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, US<br>
-                  <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
-                  <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
+                  <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Guadalajara, México.<br>
+                  <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: van.g.syn@gmail.com<br>
                </div>
-               <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+               <p> Deja un mensaje</p>
                <form action="/action_page.php" target="_blank">
                   <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
                      <div class="w3-half">
-                        <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                        <input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Name">
                      </div>
                      <div class="w3-half">
                         <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
                      </div>
                   </div>
-                  <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                  <input class="w3-input w3-border" type="text" placeholder="Mensaje" required name="Message">
                   <button class="w3-button w3-black w3-right w3-section" type="submit">
-                  <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                  <i class="fa fa-paper-plane"></i> ENVIAR MENSAJE
                   </button>
                </form>
             </div>
@@ -247,7 +299,6 @@
             <i class="fa fa-twitter w3-hover-opacity"></i>
             <i class="fa fa-linkedin w3-hover-opacity"></i>
          </div>
-         <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
       </footer>
       <!-- Add Google Maps -->
       <script>

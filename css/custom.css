@@ -1,6 +1,12 @@
 /* aquí empieza mi codigo personalizado*/
 #about{
-  background-color: red;
+
+    background-image: url("../img/13.jpg");
+    background-size: 1650px;
+    background-position: right top;
+    background-size: cover
+    background-position: center;
+
 }
 #youtube{
 	width: 100%;
@@ -12,16 +18,122 @@
 	color: #808080;
 }
 #work{
-	background-color: blue;
+	background-image: url("../img/6.jpg");
+  background-size:cover;
 }
 #work2{
 	background-color: #808080;
 }
+.text
+{
+font-size: 20px;
+text-align: center;
+color: #d9d9d9;
+}
+.w3text{
+  color: #cccccc;
+}
+.socialmedia{
+  align-content: center;
+  border:none;
+  display:inline-block;
+  padding:30px 30px;
+  vertical-align:middle;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.instagram{
+    margin-left: auto;
+    margin-right: auto;
+  }
+.barras{
+    padding:8px 8px;
+font-size: 25px;
+color:  #d9d9d9;
+margin-top:10px;
+}
+.topbarra{
+  color: #f2f2f2;
+  padding: 10px 10px;
+}
+.aboutnuevo{
 
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-style: normal;
+    color:  #e6e6e6;
+}
+ .abouttext{
+text-align: right;
+margin-bottom: 200px;
+  }
+  .blank{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+.neonspaces{
+  font-size: 58px;
+  letter-spacing: 5px;
+  font-weight: 10px;
+}
+.contactz{
 
+    background-image: url("../img/contacto.jpg");
+    background-position: right top;
+    background-size: 100%;
+    background-position: center;
+    min-height: 400px;
 
+}
+.portafolio{
 
+    background-image: url("../img/portafolio.jpg");
+    background-position: right top;
+    background-size: 100%;
+    background-position: center;
+    min-height: 400px;
 
+}
+.fuckme{
+  margin-bottom: : 150px;
+  margin-left:50px;
+  text-align: right;
+}
+
+.espacio{
+  margin-top: 300px;
+ padding: 90px;
+font-size: 40px;
+text-align: center;
+color:  #d9d9d9;
+letter-spacing: 2px;
+}
+
+.trabajo{
+ padding: 10px;
+font-size: 50px;
+text-align: center;
+color:  #d9d9d9;
+letter-spacing: 3px;
+}
+.trabajo2{
+ padding: 3px;
+font-size: 25px;
+text-align: center;
+color:  #d9d9d9;
+letter-spacing: 3px;
+}
+.imagenes{
+  position:cover;
+}
+
+.contacto{
+  background-color: black;
+}
 
 /*aqui termina mi codigo personalizado*/
 #main {

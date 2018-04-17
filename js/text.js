@@ -86,7 +86,7 @@ var TextScramble = function () {
 // Example
 // ——————————————————————————————————————————————————
 
-var phrases = ['Fotografía,', 'Post-producción', 'Desarrollo web', 'Motion graphics', 'Color', 'Mapping', '3D'];
+var phrases = ['Fotografía', 'Post-producción', 'Desarrollo Web', 'Motion Graphics', 'Color Grading', 'Mapping', 'VFX', 'Dirección', 'Edición de fotografía'];
 
 var el = document.querySelector('.text');
 var fx = new TextScramble(el);
